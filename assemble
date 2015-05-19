@@ -1,4 +1,4 @@
-#!/bin/bash
+#/bin/bash
 
 # exit script if one command fails
 set -o errexit
@@ -54,8 +54,7 @@ cat << EOF > ${OUTPUT}/biobox.yaml
 version: 0.9.0
 arguments:
   - fasta:
-    - id: velvet_contigs_1
-      value: contigs.fa
+    - id: contigs1
+      value: contig.fa
       type: contigs
 EOF
-
